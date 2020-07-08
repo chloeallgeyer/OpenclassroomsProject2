@@ -1,0 +1,179 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+/* body */
+
+#container 
+{
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	color: #424242;
+	display: flex;
+	flex-direction: column;
+	border: 2px rgba(105, 105, 105, 0.3) solid;
+	max-width: 768px;
+}
+
+/* header */
+
+header
+{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+#photo 
+{
+	background-color: #009688;
+	width: 500px;
+	height: 500px;
+	margin: auto;
+}
+
+img 
+{
+    width : 300px; 
+	height : 300px;
+	border: 4px rgba(105, 105, 105, 0.5) solid;
+	border-radius: 50%;
+	text-align: center;
+}
+
+h1
+{
+	color: black;
+	font-weight: lighter;
+}
+
+h1 span
+{
+	color:#009688; 
+	font-weight: bold;
+}
+
+#intro p
+{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+p span
+{
+	text-decoration: underline;
+	text-decoration-color: #009688; 
+	text-underline-position: under left;
+}
+
+/* main */
+
+#columns
+{
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+/* col-l */
+
+#col-l
+{
+	display: flex;
+	flex-direction: column;
+	background-color: #009688;
+}
+
+#col-l h2 
+{
+	background-color: #424242;
+	color: #009688;
+	text-align: center;
+}
+
+#contact p
+{
+	margin-left: 40px;
+}
+
+#about p
+{
+	text-align: center;
+	text-align: justify;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+#hobby .fas
+{
+	color: #424242;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#hobby
+
+#icons
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+/* col-r */
+
+#col-r
+{
+	display: flex;
+	flex-direction: column;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+#col-r h2
+{
+	color: black;
+	margin-left: 40px;
+}
+
+#formation, #experience, #recommandation 
+{
+	display: flex;
+	align-items: baseline;
+}
+
+.content
+{
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+}
+
+.lines
+{
+	margin: auto;
+}
+
+.recommand
+{
+	margin: auto;
+}
+
+.fas, .far
+{
+	color: #009688;
+	font-size: 20px;
+}
+
+a
+{
+	text-decoration: none;
+	color: #424242;
+}
+
+hr
+{
+	color: #009688;
+}
+
+.content i
+{
+	margin-right: 20px;
+}
