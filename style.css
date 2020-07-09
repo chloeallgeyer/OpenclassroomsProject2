@@ -1,5 +1,5 @@
 /* ----------------------- fonts ----------------------- */
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
 
 /* ----------------------- body ----------------------- */
 body {
@@ -7,9 +7,13 @@ body {
     padding: 0;
 }
 
+h1, h2, h3 {
+    font-weight: 500;
+}
+
 .pagecontainer {
 	font-family: 'Roboto', sans-serif;
-	font-weight: normal;
+	font-weight: 300;
 	color: #424242;
 	display: flex;
 	flex-direction: column;
@@ -49,19 +53,19 @@ h1 {
 
 h1 span {
 	color:#009688; 
-	font-weight: bold;
+	font-weight: 500;
 }
 
 .introcontent {
 	font-size: 18px;
-    font-weight: bold;
+    font-weight: 500;
     text-align: center;
 }
 
-p span {
-	text-decoration: underline;
-	text-decoration-color: #009688; 
-	text-underline-position: under left;
+.line {
+    border-top: 2px solid #009688;
+    width: 45px;
+    display: none;
 }
 
 /* ----------------------- main ----------------------- */
@@ -148,7 +152,7 @@ a {
 .blocktitle {
     display: flex;
     align-items: baseline;
-    border-bottom: 3px solid #009688;
+    border-bottom: 2px solid #009688;
 }
 
 .blocktitle h2 {
@@ -169,10 +173,18 @@ a {
     color: #757575;
     font-size: smaller;
     margin-bottom: 0;
+    font-weight: 300;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.date p {
+    margin-bottom: 0;
 }
 
 .bordered {
-    border-bottom: 1px solid #757575 ;
+    border-bottom: 1px dotted #757575 ;
 }
 
 .item p {
@@ -210,7 +222,15 @@ a {
         padding-left: 40px;
 
     }
-    
+
+    .introcontent p {
+        margin-bottom: 0;
+    }
+
+    .line {
+        display: block;
+    }
+
     .photo, .col-l {
         width: calc(100% / 3)
     }
@@ -243,9 +263,10 @@ a {
     .date {
         color: inherit;
         font-size: inherit;
+        font-weight: 500;
         width: calc(100% / 3);
     }
-
+    
     .content {
         width: calc((100% / 3) *2);
     }
