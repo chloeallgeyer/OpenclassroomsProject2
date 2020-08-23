@@ -206,7 +206,7 @@ a {
 	margin-right: 20px;
 }
 
-/* ----------------------- Media Queries ----------------------- */
+/*----------------------- Media Queries -----------------------*/
 @media (min-width: 768px){
     /* -------- body -------- */
     .pagecontainer {
@@ -280,4 +280,4 @@ a {
     .secondaryitem {
         width: calc(100% / 2);
     }
-}
+}  
